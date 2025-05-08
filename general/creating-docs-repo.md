@@ -1,6 +1,6 @@
 # Creating a new documentation github-page
 
-This documentation outlines the main steps that need to be followed to set up a project's documentation github-page such as [the current page](afrigen-d.github.io/guidelines).
+This documentation outlines the main steps that need to be followed to set up a project's documentation github-page such as [the current page](http://afrigen-d.github.io/guidelines).
 
 ::: warning
 Ensure that the [VitePress' prerequisites](https://vitepress.dev/guide/getting-started#prerequisites) are satisfied.
