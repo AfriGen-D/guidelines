@@ -17,6 +17,18 @@ export default defineConfig({
         text: "General",
         items: [
           {
+            text: "Contribution guidelines",
+            link: "general/contribution-guidelines",
+          },
+          {
+            text: "Branding guidelines",
+            link: "general/branding-guidelines",
+          },
+          {
+            text: "Versioning guidelines",
+            link: "general/versioning-guidelines",
+          },
+          {
             text: "Creating documentation repos",
             link: "general/creating-docs-repo",
           },
