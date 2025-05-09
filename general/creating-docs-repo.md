@@ -10,15 +10,21 @@ Ensure that the [VitePress' prerequisites](https://vitepress.dev/guide/getting-s
 
 Create the project directory
 
-> `mkdir guidelines`
+```bash
+mkdir guidelines
+```
 
 Enter the directory
 
-> `cd guidelines`
+```bash
+cd guidelines
+```
 
 Initialise vitepress
 
-> `npx vitepress init`
+```bash
+npx vitepress init
+```
 
 This runs the vitepress generator, which will prompt for input
 
@@ -44,7 +50,9 @@ Where should VitePress initialize the config?
 
 Add vitepress as dependency
 
-> `npm add -D vitepress`
+```bash
+npm add -D vitepress
+```
 
 ## Set up automated deployment
 
@@ -134,15 +142,21 @@ jobs:
 
 Initialise git
 
-> `git init`
+```bash
+git init
+```
 
 Add modifications to the staging area
 
-> `git add .`
+```bash
+git add .
+```
 
 Commit the changes
 
-> `git commit -m init`
+```bash
+git commit -m init
+```
 
 Ignore generated files
 
@@ -182,8 +196,12 @@ git commit -m init
 1. Copy the the repository's github URL
 2. Set the remote origin
 
-`git remote add origin git@github.com:<project>`
+```bash
+git remote add origin git@github.com:<project>
+```
 
 3. push
 
-`git push origin main`
+```bash
+git push origin main
+```
