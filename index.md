@@ -4,22 +4,25 @@ layout: home
 
 hero:
   name: "Guidelines"
-  text: "General guidelines"
-  tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: General guidelines
+      link: /general
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon:
+      src: /assets/icons/contribution.png
+    title: Contribution guidelines
+    details: Guidelines to be followed when contributing to Afrigen-D's GitHub repositories
+    link: /general/contribution-guidelines
+  - icon:
+      src: /assets/icons/color-palette.png
+    title: Afrigen-D Styleguide
+    details: Assets and style guidelines for developing Afrigen-D projects
+    link: /general/branding-guidelines
+  - icon:
+      src: /assets/icons/version-control.png
+    title: Versioning guidelines
+    details: Procedure for versioning dataset releases and code repositories
+    link: /general/versioning-guidelines
 ---
-
